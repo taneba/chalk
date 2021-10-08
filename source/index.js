@@ -227,3 +227,5 @@ chalk.stderr = Chalk({level: stderrColor ? stderrColor.level : 0}); // eslint-di
 chalk.stderr.supportsColor = stderrColor;
 
 module.exports = chalk;
+module.exports.chalk = chalk;
+module.exports.default = chalk;
